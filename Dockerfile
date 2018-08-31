@@ -2,8 +2,6 @@
 
 FROM ubuntu:16.04
 
-MAINTAINER Corentin Corde <corentincorde@gmail.com>
-
 ENV SDK_ROOT=/opt/nordic
 
 RUN apt-get update \
